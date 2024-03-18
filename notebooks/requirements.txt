@@ -1,0 +1,9 @@
+pytorch-forecasting==1.0.0
+pytorch-lightning==2.2.1
+requests==2.31.0
+tensorboardX
+torchvision
+pycocotools
+prophet
+plotly
+nbformat
