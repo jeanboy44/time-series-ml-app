@@ -3,7 +3,7 @@ import plotly.graph_objs as go
 import pandas as pd
 
 
-def plot_plotly(
+def plot_plotly_with_testset(
     m,
     fcst,
     future_real=None,

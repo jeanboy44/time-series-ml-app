@@ -162,3 +162,6 @@ cython_debug/
 # pytorch
 notebooks/lightning_logs
 data/*
+
+# mlflow
+notebooks/mlruns

@@ -1,6 +1,7 @@
 # Core Pkgs
 import streamlit as st
 from app.prophet_forecast import prophet_forecast
+from app.yolov5 import run_yolov5
 
 # Additional Pkgs
 
@@ -10,19 +11,23 @@ from app.prophet_forecast import prophet_forecast
 
 # Config Page
 PAGE_CONFIG = {
-    "page_title": "StreamlitTutorial",
+    "page_title": "Machine Learning Application Demo",
     "page_icon": "😃",
-    "layout": "centered",
+    "layout": "wide",
 }
 st.set_page_config(**PAGE_CONFIG)
 
 
 def main():
-    st.title("Streamlit is Awesome")
-    menu = ["Home", "Prophet", "Applications"]
+    st.title("ML model apps")
+    menu = ["Home", "Object Detection", "Time Series Forecasting"]
     choice = st.sidebar.selectbox("Menu", menu)
 
-    if choice == "Prophet":
+    if choice == "Home":
+        st.subheader("Home")
+    if choice == "Object Detection":
+        run_yolov5()
+    if choice == "Time Series Forecasting":
         prophet_forecast()
 
 
