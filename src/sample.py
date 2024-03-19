@@ -1,6 +1,6 @@
-def sample_function():
-    return True
+def sample_print():
+    print("sample source code")
 
 
 if __name__ == "__main__":
-    print("sample source code")
+    sample_print()
