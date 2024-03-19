@@ -1,3 +1,6 @@
 torch
 plotly
 opencv-python
+prophet
+nbformat
+scikit-learn

@@ -3,6 +3,9 @@
 import torch
 import plotly
 import cv2
+import prophet
+import nbformat
+import sklearn
 
 # pythonpath가 제대로 설정되었는지 확인
 from src.sample import sample_print
