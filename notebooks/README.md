@@ -13,3 +13,9 @@ yolov5 를 사용해서 예측하고 결과를 저장합니다. 코드를 실행
 ```
 python notebooks/yolov5.py
 ```
+
+### MLFlow UI 실행 방법
+`notebooks` 폴더로 이동 후 아래의 명령어를 입력한다.
+```
+mlflow ui
+```

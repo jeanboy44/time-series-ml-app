@@ -4,3 +4,4 @@ opencv-python
 prophet
 nbformat
 scikit-learn
+mlflow
