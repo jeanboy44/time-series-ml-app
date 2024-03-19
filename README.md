@@ -9,6 +9,6 @@ Simple application with time series model
     1. `.env.example` 파일을 복사하여 `.env` 생성
     1. `.env` 의 내용을 본인의 경로에 맞게 아래와 같이 적절히 변경(예시)
         ```
-        PYTHONPATH=/Users/jeanboy/workspace/SmartEnergyInsightAI
+        PYTHONPATH=/Users/jeanboy/workspace/time-series-ml-app
         ```
     1. vscode 재시작
