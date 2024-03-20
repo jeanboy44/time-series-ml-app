@@ -1,5 +1,5 @@
 # time-series-ml-app
-Simple application with time series model
+ML모델이 적용된 간단한 앱을 개발합니다.
 
 # 환경 설정
 ### 필수
@@ -12,3 +12,4 @@ Simple application with time series model
         PYTHONPATH=/Users/jeanboy/workspace/time-series-ml-app
         ```
     1. vscode 재시작
+
