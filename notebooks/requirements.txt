@@ -1,3 +1,4 @@
 torch
 plotly
+pillow
 opencv-python
