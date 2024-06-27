@@ -19,3 +19,7 @@ python notebooks/yolov5.py
 ```
 mlflow ui
 ```
+
+### MLFlow에 실험 이력 생성
+- `prophet_mlflow_tutorial.ipynb` 노트북 실행
+- mlflow ui 접속(http://127.0.0.1:5000)
